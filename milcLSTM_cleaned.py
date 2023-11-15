@@ -6,7 +6,8 @@
 Contributor: Rahman, M. M, TReNDS center
 Usage:
 
-To train model, use: python milcLSTM_cleaned.py gaid_id 'train', e.g. to train a model with gain value=1.0, use: python milcLSTM_cleaned.py 10 'train'
+To train model, use: python milcLSTM_cleaned.py gain_id 'train'
+e.g. to train a model with gain value=1.0, use: python milcLSTM_cleaned.py 10 'train'
 To compute saliency, use: python milcLSTM_cleaned.py gain_id 'attribution'
 '''
 
